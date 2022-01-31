@@ -1,0 +1,35 @@
+.cameraDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cameraDiv h1 {
+  margin-bottom: 30px;
+}
+
+.spaceCamera {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.camera {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-left-radius: 8px;
+}
+
+.camera button {
+  border: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.camera button span:hover {
+  transition: 0.2s;
+  font-size: large;
+}
